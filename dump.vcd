@@ -1,0 +1,57 @@
+$date
+	Fri Sep 25 19:36:15 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module immediate_generator_tb $end
+$var wire 32 ! immediate [31:0] $end
+$var reg 32 " instruction [31:0] $end
+$scope module uut $end
+$var wire 32 # instruction [31:0] $end
+$var reg 32 $ immediate [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 $
+b10011 #
+b10011 "
+b0 !
+$end
+#10
+b10010011 "
+b10010011 #
+#20
+b1 !
+b1 $
+b100000000000100010011 "
+b100000000000100010011 #
+#30
+b10 !
+b10 $
+b1000000000000110010011 "
+b1000000000000110010011 #
+#40
+b11 !
+b11 $
+b1100000000001000010011 "
+b1100000000001000010011 #
+#50
+b100 !
+b100 $
+b10000000000001010010011 "
+b10000000000001010010011 #
+#60
+b101 !
+b101 $
+b10100000000001100010011 "
+b10100000000001100010011 #
+#70
